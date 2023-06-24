@@ -1,0 +1,18 @@
+{
+  "user_profile": "Sarah",
+  "age": 32,
+  "gender": "Female",
+  "height": "165 cm",
+  "weight": "75 kg",
+  "bmi": "26 (Overweight)",
+  "muscleMass": "40 kg",
+  "water": "55%",
+  "boneMass": "3.5 kg",
+  "protein": "60 g",
+  "healthGoals": "weight loss",
+  "dietaryRestrictions": "None",
+  "activityLevel": "Sedentary",
+  "profileType": "Beginner",
+  "historicalHealthConditions": "None",
+  "healthScreeningResults": "Blood pressure: Normal"
+}
