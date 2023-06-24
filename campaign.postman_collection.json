@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "b3cf839c-1ed3-49eb-ac13-89559ea57152",
+		"name": "campaign",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8227565",
+		"_collection_link": "https://crimson-rocket-138028.postman.co/workspace/Team-Workspace~1a724719-7d99-4d84-8e12-17914c02bf15/collection/8227565-b3cf839c-1ed3-49eb-ac13-89559ea57152?action=share&creator=8227565&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "campaign/generic",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/campaign/generic",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"campaign",
+						"generic"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "campaign",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"User Profile\": \"David\",\n    \"Age\": 52,\n    \"Gender\": \"Male\",\n    \"Height\": \"175 cm\",\n    \"Weight\": \"80 kg\",\n    \"Body Mass Index (BMI)\": \"28 (Overweight)\",\n    \"Muscle Mass\": \"45 kg\",\n    \"Water\": \"55%\",\n    \"Bone Mass\": \"3.8 kg\",\n    \"Protein\": \"90 g\",\n    \"Health Goals\": \"Lower cholesterol levels\",\n    \"Dietary Restrictions\": \"Vegetarian\",\n    \"Activity Level\": \"Sedentary\",\n    \"Profile Type\": \"Advanced\",\n    \"Historical Health Conditions\": \"None\",\n    \"Health Screening Results\": \"Blood pressure: Normal, Cholesterol: High\"\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/campaign",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"campaign"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
